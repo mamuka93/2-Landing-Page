@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
+    margin-right: 172px;
 }
 
 .logo p {
@@ -64,3 +65,113 @@ body {
     text-align: center;
     color: #F66F4D;
 }
+
+.smenu {
+    display: flex;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.top {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2D3134;
+    margin-top: 136px;
+    margin-bottom: 16px;
+}
+
+.sost {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5B5F62;
+    margin-bottom: 28px;
+}
+
+.list {
+    display: flex;
+    gap: 54px;
+    margin-bottom: 61px;
+}
+
+
+.list a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #2D3134;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
+}
+
+.london[href] {
+    background-color: #2D3134;
+    color: white;
+}
+
+.list a {
+    border: 1px solid black;
+}
+
+
+.photo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+     "p1 p1 p3 p3 p4 p4 p4" 
+     "p2 p2 p3 p3 p5 p6 p6";
+    padding: 0 135px;
+    gap: 13px 30px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.p1 {
+    grid-area: p1;
+    
+}
+
+
+.p-2 {
+    grid-area: p2;
+    
+}
+
+.p-3 {
+    grid-area: p3;
+}
+
+.p-4 {
+    grid-area: p4;
+}
+
+.p-5 {
+    grid-area: p5;
+}
+
+.p-6 {
+    grid-area: p6;
+}
+
