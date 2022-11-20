@@ -5,12 +5,13 @@
 
 body {
     background-color: #E5E5E5;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 39px 135px;
+    padding: 4.225352112676056vh 14.626218851570965vh;
     align-items: center;
 }
 
@@ -27,7 +28,7 @@ nav div:nth-child(1) ul {
 
 nav div:nth-child(1) li {
     list-style: none;
-    padding: 0 36px;
+    padding: 0 3.9003250270855903vh;
 
 }
 
@@ -58,14 +59,14 @@ button {
     cursor: pointer;
     color: #F66F4D;
     border-color: #F66F4D;
-    font-family: 'Poppins';
+    font-family: 'poppins regular';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     border-radius: 27px;
-    padding: 19px 34px;
+    padding: 2.058504875406284vh 3.6836403033586134vh;
 }
 
 button img {
@@ -91,7 +92,7 @@ button img {
     font-size: 56px;
     line-height: 66px;
     color: #2D3134;
-    margin-top: 136px;
+    margin-top: 14.734561213434453vh;
     margin-bottom: 16px;
 }
 
@@ -114,7 +115,7 @@ button img {
 
 .list a {
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'poppins regular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -138,37 +139,33 @@ button img {
 
 .photo {
     display: grid;
-    height: 500px;
+    height: 54.17118093174431vh;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
         "p1 p1 p3 p3 p4 p4 p4"
         "p2 p2 p3 p3 p5 p6 p6";
-    padding: 0 135px;
-    gap: 13px 30px;  
-    margin-bottom: 84px;
-    
+    padding: 0 14.626218851570965vh;
+    gap: 1.408450704225352vh 3.2502708559046587vh;
+    margin-bottom: 9.100758396533044vh;
+
 }
+
 .p-1 {
     grid-area: p1;
     background-image: url('./photos/1Rectangle\ 4389.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
 }
-    
+
 
 
 
 .p-2 {
     grid-area: p2;
-    background-image: url('/photos/2Group.svg');
+    background-image: url('./photos/2Group.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     border-radius: 20px;
 }
@@ -177,7 +174,6 @@ button img {
     grid-area: p3;
     background-image: url('./photos/3Rectangle\ 4391.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     border-radius: 20px;
 }
@@ -186,7 +182,6 @@ button img {
     grid-area: p4;
     background-image: url('./photos/4Rectangle\ 4392.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     border-radius: 20px;
 }
@@ -195,7 +190,6 @@ button img {
     grid-area: p5;
     background-image: url('./photos/5Rectangle\ 4394.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     border-radius: 20px;
 }
@@ -204,7 +198,105 @@ button img {
     grid-area: p6;
     background-image: url('./photos/6Rectangle\ 4395.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     border-radius: 20px;
+}
+
+
+.first {
+    color: white;
+    position: absolute;
+    top: 16px;
+    border: solid black 2px;
+    border-radius: 2.600216684723727vh;
+    background-color: black;
+    padding: 5px 10px;
+
+}
+
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2.600216684723727vh;
+    position: relative;
+    gap: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+
+#text:nth-child(-n+2) .first {
+    color: black;
+    background-color: white;
+    border: solid white 2px;
+}
+
+
+
+
+footer {
+    display: flex;
+    padding: 0 14.626218851570965vh 5.958829902491875vh 14.626218851570965vh;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+
+.container {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    color: #676A6C;
+
+}
+
+
+.container li:first-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2D3134;
+    margin-bottom: 2.38353196099675vh;
+
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #2D3134;
+}
+
+
+.lg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lg p:last-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5B5F62;
 }
